@@ -10,7 +10,7 @@ const Contenedor = styled.div`
 `;
 
 const Boton = styled.button`
-  background: -webkit-linear-gradient( top left, #007d35 0%, #007d35 40%, #0f574e 100%  );
+  background: -webkit-linear-gradient( top left, #0f574e 0%, #007d35 40%, #007d35 100%  );
   background-size:305px;
   font-family: 'Arial', Arial, Helvetica, sans-serif;
   color: #FFF;
@@ -22,7 +22,8 @@ const Boton = styled.button`
 
   :hover{
     cursor:pointer;
-    background-size:400px;
+    background-size:850px;
+    
   }
 `;
 
