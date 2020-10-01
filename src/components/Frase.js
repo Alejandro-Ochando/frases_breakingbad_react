@@ -42,8 +42,9 @@ const ContenedorFrase = styled.div`
 
 
 const Frase = ({ frase }) => {
-
-    if(Object.keys(frase).length === 0 ) return null;
+    //Elimina el div vacio al principio
+    //AL usar UseEffect ya no hace falta esto:
+    //if(Object.keys(frase).length === 0 ) return null;
 
     return ( 
         <ContenedorFrase>
