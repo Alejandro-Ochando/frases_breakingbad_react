@@ -1,6 +1,8 @@
 import React from 'react';
 import styled from '@emotion/styled';
+import PropTypes from 'prop-types';
 
+//Styled Component
 const ContenedorFrase = styled.div`
     background-color: #fff;
     padding: 3rem;
@@ -10,7 +12,6 @@ const ContenedorFrase = styled.div`
     @media (min-width: 992px) {
         margin-top: 10rem;
     }
-    
     h1{
         font-family: Arial, Helvetica, sans-serif;
         text-align: center;
@@ -26,7 +27,6 @@ const ContenedorFrase = styled.div`
             top: -2rem;
         }
     }
-
     p {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 1.4rem;
@@ -36,23 +36,23 @@ const ContenedorFrase = styled.div`
         margin-top: 2rem;
 
     }
-
 `;
-
 
 
 const Frase = ({ frase }) => {
     //Elimina el div vacio al principio
     //AL usar UseEffect ya no hace falta esto:
     //if(Object.keys(frase).length === 0 ) return null;
-
     return ( 
         <ContenedorFrase>
             <h1>{frase.quote}</h1>
             <p>-{frase.author}-</p>
         </ContenedorFrase>
-        
      );
 }
  
+Frase.propTypes = {
+    frase: PropTypes.object.isRequired
+}
+
 export default Frase;
