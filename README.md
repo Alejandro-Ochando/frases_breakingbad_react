@@ -6,7 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 
 
-## About Breadkingbad Phrases
+## About Breakingbad Phrases
 
 >Project fully completed.
 
@@ -20,7 +20,7 @@ This is my project made in React, ***it is functional on production lathes***.
 
 ## Images
 
-#### Breadkingbad Phrases
+#### Breakingbad Phrases
 
 <img src=https://i.ibb.co/jvxHrpv/breadking.png>
 
@@ -28,7 +28,7 @@ This is my project made in React, ***it is functional on production lathes***.
 
 ## Live demo
 
-* https://frases-breadkingbad.netlify.app/
+* https://frases-breakingbad.netlify.app/
 
 
 
