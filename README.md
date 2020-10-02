@@ -28,7 +28,7 @@ This is my project made in React, ***it is functional on production lathes***.
 
 ## Live demo
 
-* https://frases-breakingbad.netlify.app/
+* https://frasesbreakingbad-react.netlify.app/
 
 
 
