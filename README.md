@@ -2,6 +2,8 @@
 <img src="https://i.ibb.co/pPYfKM0/React.png" alt="React" border="0">
 <p>
 
+# Breakingbad Phrases  [![Netlify Status](https://api.netlify.com/api/v1/badges/f662e743-5e0b-4835-a5d9-676d8f6d956c/deploy-status)](https://app.netlify.com/sites/frasesbreakingbad-react/deploys
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 
